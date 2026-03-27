@@ -40,19 +40,80 @@
         }
 
         label:focus-withis {
-            color: ;
+            color: #8d3dc8;
         }
-        
+
+        input {
+            font-size: 1.1875rem;
+            color: #404040;
+            padding: 1rem 0 0.5rem;
+            width: 100%;
+            border: none;
+            border-color: #a0a0a0;
+            border-bottom-width: 1px;
+            border-bottom-style: dotted;
+            margin-bottom: 3rem;
+            transition: 0.15s linear;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #8d3dc8;
+        }
+
+        button {
+            font-size: 0.8125rem;
+            line-height: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            width: 100%;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            background: transparent;
+            color: #81259d;
+            border: 1px solid currentColor;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+            transition: 0.25s;
+        }        
+
+        button:hover,
+        button:focus {
+            outline: none;
+            background: #8d3dc8;
+            color: #777;
+        }
+
+        a {
+            text-decoration: none;
+            color: #8d3dc8;
+            font-size: 0.875rem;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        a:hover,
+        a:focus {
+            outline: none;
+            color: #000;
+        }
+
+        a:first-of-type {
+            margin-top: 3rem;
+        }
+
+        a + a {
+            margin-top: 1.125rem;
+        }
     </style>
 </head>
 <body>
     <form action="">
         <p> Faça seu login</p>
         <label for="cpf">CPF <input type="text" id="cpf" ></label>
-         <label for="password">Senha <input type="password" id="passowordlkjdfs"></label><button>
-            <a href="#">Esqueci minha senha</a>
+         <label for="password">Senha <input type="password" id="password" ><label><button>Continuar</button>
+            <a href="#">Esqueci minha senha </a>
             <a href="#">Ainda não sou cliente </a>
-         </button>
     </form>
 
 </body>
