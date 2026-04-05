@@ -30,6 +30,7 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+
 header {
     background-image: linear-gradient( to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
@@ -96,6 +97,30 @@ main h1 {
 
 main h2 {
     font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1));
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
 }
 
 main img {
@@ -103,7 +128,7 @@ main img {
 }
 
 main img.pequena {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
